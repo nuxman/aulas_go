@@ -3,11 +3,7 @@ package main
 import "fmt"
 
 func main() {
-    var precoLeite float32 = 2.99
-    var precoOvo float32 = 3.99
-    var precoPao float32 = 0.99
-
-    fmt.Println("O preço do leite é R$", precoLeite)
-    fmt.Println("O preço do ovo é R$", precoOvo)
-    fmt.Println("O preço do pão é R$", precoPao)
+    var nome string = "José"
+    var peso float32 = 75.4
+    fmt.Println("Olá, eu sou o", nome)
 }
